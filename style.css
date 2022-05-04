@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+h1 {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-weight: 500;
+  line-height: 4rem;
+  font-family: "IBM Plex Serif", serif;
+}
+
+h3 {
+  font-weight: 400;
+  line-height: 3rem;
+  font-family: "IBM Plex Serif", serif;
+}
+nav h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/bg.jpg);
+  font-size: 16px;
+}
+ul {
+  text-align: center;
+  margin-top: 1rem;
+}
+li {
+  display: inline;
+  padding: 8px;
+}
+li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  margin: 5rem;
+  background-color: rgba(255, 255, 255, 0.588);
+  border-radius: 3rem;
+  padding: 10rem;
+}
+
+section {
+  border-left: 1px solid rgba(0, 0, 0, 0.187);
+  padding: 1rem;
+}
+
+article {
+  line-height: 1.7rem;
+}
+footer {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: rgba(128, 128, 128, 0.42);
+  padding-top: 1rem;
+}
+
+nav ul li a:hover {
+  color: bisque;
+}
+
+nav ul li a:visited {
+  color: #660000;
+}
+nav ul li a:active {
+  text-decoration: overline #660000;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: #f52f2f;
+}
+a:hover {
+  background-color: bisque;
+}
+a:active {
+  background-color: aqua;
+}
+
+.link {
+  text-decoration: none;
+}
